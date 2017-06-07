@@ -1,12 +1,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "gRPCTensorFlow",
+    name: "protoTensorFlow",
     targets: [
-        Target(name: "gRPCTensorFlow")
+        Target(name: "protoTensorFlow")
     ],
     dependencies: [
         .Package(url: "https://github.com/apple/swift-protobuf.git", Version(0,9,903)),
-        .Package(url: "https://github.com/grpc/grpc-swift.git", Version(0,1,10))
+        .Package(url: "https://github.com/grpc/grpc-swift.git", Version(0,1,12))
     ]
 )
