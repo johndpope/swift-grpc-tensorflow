@@ -24,6 +24,7 @@
 import Foundation
 import Dispatch
 import gRPC
+import SwiftProtobuf
 
 /// Type for errors thrown from generated server code.
 internal enum Tensorflow_Grpc_WorkerServiceServerError : Error {
